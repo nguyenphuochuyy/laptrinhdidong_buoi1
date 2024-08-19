@@ -13,3 +13,11 @@ var avgDolphins = avg(data1).toFixed(1)
 var avgKoala = avg(data2).toFixed(1)
 console.log(`Average score of DolPhins : ${avgDolphins}`);
 console.log(`Average score of Koala : ${avgKoala}`);
+//2
+if (avgDolphins > avgKoala) {
+    console.log("Dolphins win !");
+} else if (avgDolphins < avgKoala) {
+    console.log("Koala win !");
+} else {
+    console.log("draw");
+}
